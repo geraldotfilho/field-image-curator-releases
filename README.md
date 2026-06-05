@@ -23,6 +23,35 @@ O aplicativo une três subsistemas funcionais integrados em um único fluxo de t
 
 ---
 
+## 🔑 Acesso Autorizado e Conectividade
+
+O uso do software é restrito a usuários previamente autorizados:
+* **Autenticação via Google**: Ao abrir o aplicativo, é necessário realizar login utilizando uma conta Google autorizada.
+* **Solicitação de Acesso**: Para solicitar autorização de uso (analisada caso a caso), envie um e-mail com sua justificativa e dados profissionais para: **fieldimagecuratorapp@gmail.com**.
+* **Necessidade de Internet**: A internet é exigida estritamente nas seguintes situações:
+  1. **Autenticação Inicial**: No primeiro acesso ao programa.
+  2. **Renovação Mensal**: O token de autenticação expira a cada **1 mês**, necessitando de uma breve conexão à internet para renovar o acesso seguro por mais 30 dias offline.
+  3. **Download de Modelos**: Necessário para baixar modelos de Inteligência Artificial adicionais e opcionais diretamente através da interface de gerenciamento do Ateliê.
+
+---
+
+## 💻 Requisitos de Sistema (Hardware & Software)
+
+### Requisitos Mínimos (Funcionalidades Básicas e Curadoria Manual)
+* **Sistema Operacional**: Windows 10/11 (64-bit), Linux (distribuições modernas rodando X11 ou Wayland e Qt), ou macOS 12 (Monterey) ou posterior.
+* **Processador**: Intel Core i5 ou AMD Ryzen 5 (ou equivalente).
+* **Memória RAM**: 8 GB.
+* **Armazenamento**: 2 GB de espaço livre para instalação do sistema e caches locais básicos.
+
+### Requisitos Recomendados (Para Uso Completo de IA e Modelos Locais)
+* **Processador**: Intel Core i7 / AMD Ryzen 7 (ou superior) ou Apple Silicon (M1/M2/M3).
+* **Memória RAM**: 16 GB ou mais.
+* **Placa de Vídeo (GPU)**: Placa dedicada NVIDIA (GTX 1660 / RTX Series ou superior com no mínimo 6 GB de VRAM dedicada) para aceleração de hardware dos embeddings de imagem (SigLIP) e transcrição Whisper local rápida.
+* **Software de Apoio**: **Ollama** instalado e rodando em background (necessário especificamente para o modelo VLM local `qwen2.5vl:7b` usado no processamento de imagens e redação automatizada de seções via IA local).
+* **Armazenamento**: SSD de alta velocidade com pelo menos 15 GB de espaço livre para abrigar os modelos locais (ONNX, Whisper e Ollama).
+
+---
+
 ## ⚠️ AVISO IMPORTANTE E DECLARAÇÃO DE RESPONSABILIDADE
 
 > [!WARNING]

@@ -113,4 +113,5 @@ Os instaladores oficiais e pacotes de release estão disponíveis na aba lateral
 ## 🛠️ Desenvolvimento e Contribuição
 
 * **Distribuição Exclusiva**: Este repositório é utilizado **exclusivamente** para disponibilizar os pacotes compilados (assets de release). Por razões de segurança, integridade das cadeias de custódia e privacidade dos templates forenses de fenda institucional, o código-fonte principal é mantido de forma interna e privada.
-* **Sugestões**: Dúvidas, sugestões de novos templates de laudo ou melhorias de UX no agrupamento de imagens podem ser direcionadas abrindo uma Issue.
+* **Sugestões**: Dúvidas, sugestões de novos templates de laudo ou melhorias de UX no agrupamento de imagens podem ser direcionadas abrindo uma Issue neste repositório.
+* **Contribuições ao Projeto**: Se você é desenvolvedor e deseja contribuir com o código-fonte no repositório de desenvolvimento privado do Ateliê Pericial, entre em contato através do e-mail oficial: **fieldimagecuratorapp@gmail.com** detalhando sua proposta de melhoria ou perfil técnico.
